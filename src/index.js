@@ -7,7 +7,7 @@ import promise from 'redux-promise';
 
 
 import reducers from './reducers';
-import './scss/header.scss';
+import './../scss/header.scss';
 import Header from './components/header';
 import Biography from './components/biography';
 import Contact from './components/contact';
