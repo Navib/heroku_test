@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Swiper from 'swiper';
 
+import MovieSlides from './../containers/movie_slides';
+
 class MovieSlider extends Component {
   componentDidMount(){
     var mySwiper = new Swiper('.swiper-container', {
@@ -13,24 +15,13 @@ class MovieSlider extends Component {
       pagination: {
         el: '.swiper-pagination',
       },
-      on: {
-        reachEnd: function() {
-          console.log("reached end! : ", window.pageYOffset);
-          //document.querySelector('.scroll-content').style.transform = 'translate3d(0px, -682px, 0px)';
-
-        }
-      }
      });
   }
   render() {
     return (
       <div className="movie-slider-wrapper">
         <div className="swiper-container">
-          <div className="swiper-wrapper">
-            <div className="swiper-slide">Slide 1</div>
-            <div className="swiper-slide">Slide 2</div>
-            <div className="swiper-slide">Slide 3</div>
-          </div>
+          <MovieSlides />
           <div className="swiper-pagination"></div>
         </div>
       </div>

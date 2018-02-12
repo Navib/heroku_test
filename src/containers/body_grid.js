@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
  class BodyGrid extends Component {
    constructor(props) {
      super(props);
-     console.log(this.props);
 
    }
    renderGrid() {
