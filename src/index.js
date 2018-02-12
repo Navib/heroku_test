@@ -8,7 +8,7 @@ import promise from 'redux-promise';
 
 import reducers from './reducers';
 import './../scss/header.scss';
-import Header from './components/header';
+import HomePage from './pages/home_page';
 import Biography from './components/biography';
 import Contact from './components/contact';
 
@@ -27,7 +27,7 @@ ReactDOM.render(
         <Switch>
           <Route path="/contact" component={Contact} />
           <Route path="/biography" component={Biography} />
-          <Route path="/" component={Header} />
+          <Route path="/" component={HomePage} />
         </Switch>
     </div>
     </BrowserRouter>
