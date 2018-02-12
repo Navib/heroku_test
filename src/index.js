@@ -7,7 +7,7 @@ import promise from 'redux-promise';
 
 
 import reducers from './reducers';
-import './../scss/header.scss';
+import './../scss/main.scss';
 import HomePage from './pages/home_page';
 import Biography from './components/biography';
 import Contact from './components/contact';
@@ -32,4 +32,4 @@ ReactDOM.render(
     </div>
     </BrowserRouter>
   </Provider>
-  , document.querySelector('.container'));
+  , document.querySelector('.app'));

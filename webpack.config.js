@@ -15,7 +15,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
        {
          test: /\.js[x]?$/,
          use: ['babel-loader'],
-         exclude: /node_modules/,
+         exclude: /node_modules\/(?!(dom7|swiper)\/).*/,
         },
        {
          test: /\.scss$/,
