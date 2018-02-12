@@ -14,5 +14,12 @@
         background: purple;
       }
     }
+
+    .swiper-pagination-bullet {
+      height: 40px;
+      width: 7px;
+      border-radius: 0;
+      margin: 10px 0 !important;
+    }
   }
 }
