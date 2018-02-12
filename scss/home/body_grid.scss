@@ -1,3 +1,5 @@
+@import './../base.scss';
+
 .body-grid-wrapper {
   height: 100%;
   width: 100%;
@@ -20,17 +22,17 @@ justify-content: center;
       align-items: center;
     }
     .list-group-item:nth-child(1),.list-group-item:nth-child(4) {
-      background: black;
+      background: $brown;
       color: white;
     }
     .list-group-item:nth-child(3),.list-group-item:nth-child(2) {
-      background: white;
+      background: $white;
     }
   }
   .single-quote {
     width: 50%;
-    background: blue;
     height: 550px;
+    background: $blue;
 
     .list-group-item-large {
       flex-basis: 50%;
@@ -44,7 +46,7 @@ justify-content: center;
 //test
 .blue_bg {
   flex-flow: row-reverse;
-  background: blue;
+
   h1 {
     color: white;
   }

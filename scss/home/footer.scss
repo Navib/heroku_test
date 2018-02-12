@@ -1,0 +1,13 @@
+.footer-wrapper {
+  height: 400px;
+  width: 100%;
+
+  .flex-footer {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+  }
+}
